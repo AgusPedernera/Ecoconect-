@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
 * {
     padding: 0px;
     margin: 0px;
@@ -12,18 +13,22 @@ body {
     /*background-color: blueviolet;*/
 }
 
+
 .encabezado {
     height: 400px;
-    /*background-color: aqua;*/
+    /* /*background-color: aqua; */
 
 }
 
-.encabezado h1 {
+.encabezado #logo {
+font-family: 'Urbanist', sans-serif;
+    vertical-align: middle;
     height: 200px;
-    margin: 10px 250px;
-    padding: 10px;
-    /*background-color: rgb(97, 97, 206);*/
-    text-align: center; //*texto despues va el logo*/
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .encabezado p {

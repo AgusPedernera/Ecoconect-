@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -17,13 +18,13 @@ body {
 
 
 /* .encabezado { */
-    /* height: 300px; */
-    /* /*background-color: aqua; */
+/* height: 300px; */
+/* /*background-color: aqua; */
 
 /* } */
 
 .encabezado #logo {
-font-family: 'Urbanist', sans-serif;
+    font-family: 'Urbanist', sans-serif;
     vertical-align: middle;
     /* height: 100px; */
     /* width: 1024px; */
@@ -114,5 +115,31 @@ img[alt="compra"] {
     color: white;
     margin: 200px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+/* cartas */
+.cartas article img {
+    height: 180px;
+    width: 190px;
+}
+
+.cartas article {
+
+    height: 328px;
+    width: 320px;
+    border-radius: 8px;
+    background-color: hsl(168, 55%, 60%, 51%)
+
+}
+
+.cartas {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 60px 40px;
+    padding: 20px;
+
 
 }

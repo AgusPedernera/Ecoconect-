@@ -166,3 +166,38 @@ img[alt="compra"] {
 
 
 }
+
+
+
+/*responsive*/
+/* 1200px hasta 769px*/
+@media (max-width: 1023px){
+
+    .cartas{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px;
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+    .cartas article{
+        height: 290px;
+
+    }
+    .cartas article img{
+        height: 157px;
+        width: 156px;
+    }
+
+    
+   
+
+/*desde 1024 (max-width: 1024px) and (min-width: 769px)*/
+@media (width >=  1024px) {
+
+    main{
+        max-width: 769px;
+    }
+    .cartas{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}}

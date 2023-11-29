@@ -307,6 +307,7 @@ header img[alt="logo"] {
 @media (max-width: 1023px) {
 
     .cartas {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 40px;
         column-gap: 40px;
@@ -330,6 +331,7 @@ header img[alt="logo"] {
     @media (width >=1024px) {
 
         main {
+            display: grid;
             max-width: 769px;
         }
 

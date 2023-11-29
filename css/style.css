@@ -178,8 +178,162 @@ img[alt="compra"] {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 60px 40px;
-    padding: 20px;
+    gap: 21px 24px;
+    margin-left: 66px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 118px;
+}
 
+.hamburger {
+    height: 104px;
+    width: 1010px;
+    border: 2px solid #19705E;
+    background: rgba(2, 250, 188, 0.30);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 66px;
+    margin-bottom: 77px;
 
 }
+
+.hamburger h2 {
+    color: #04382B;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin: 25px 0px 25px 31px;
+}
+
+.desplegado {
+    transform: translateY(0px);
+}
+
+/* img[alt="menu"] {
+    /*ocultamos el hamburger*/
+    /* display: none; */
+
+
+<<<<<<<<< Temporary merge branch 1
+
+
+/*responsive*/
+/* 1200px hasta 769px*/
+@media (max-width: 1023px) {
+
+    .cartas {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px;
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+
+    .cartas article {
+        height: 290px;
+
+    }
+
+    .cartas article img {
+        height: 157px;
+        width: 156px;
+    }
+
+
+
+
+    /*desde 1024 (max-width: 1024px) and (min-width: 769px)*/
+    @media (width >=1024px) {
+
+        main {
+            max-width: 769px;
+        }
+
+        .cartas {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+=========
+}
+
+/* Formulario */
+
+header{
+    /* background-color: #C1EDE280; */
+    width: auto;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    header a{
+
+        color: #04382B;
+        font-weight: 400;
+    }
+
+    header a img{
+        margin: 8px 12px;
+        vertical-align: middle;
+    }
+
+    header nav{
+        margin-right: 12px;
+    }
+    header nav a{
+        padding: 10px;
+    }
+    header img[alt="menu"]{
+        /*ocultar hamburger*/
+        display: none;
+
+    }
+    header img[alt="logo"]{
+        /*ocultar hamburger*/
+        width: 30px;
+        height: 30px;
+
+    }
+
+#form{
+
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        display: flex;
+        margin: 20px;
+        height: 600px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+article{
+    width: 600px;
+    text-align: center;
+    padding: 60px;
+}
+    article img{
+        width: 300px;
+        margin: 20px auto 20px auto;
+    }
+#p-1{
+    background-color: hsl(0, 0%, 99%);
+}
+
+#p-2{
+    background-color: hsl(187, 66%, 92%);
+    /* background-image: url(../img/fondo-v.jpg); */
+    background-position: center;
+    background-size: 130%;
+}
+
+#p-2 h2{
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+    }
+>>>>>>>>> Temporary merge branch 2

@@ -12,7 +12,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 22px;
     margin: auto;
-    /*background-color: blueviolet;*/
+
     height: 740px;
 }
 
@@ -178,80 +178,8 @@ img[alt="compra"] {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 21px 24px;
-    margin-left: 66px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 118px;
-}
-
-.hamburger {
-    height: 104px;
-    width: 1010px;
-    border: 2px solid #19705E;
-    background: rgba(2, 250, 188, 0.30);
-    display: flex;
-    justify-content: space-between;
-    margin-left: 66px;
-    margin-bottom: 77px;
-
-}
-
-.hamburger h2 {
-    color: #04382B;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 2px;
-    margin: 25px 0px 25px 31px;
-}
-
-.desplegado {
-    transform: translateY(0px);
-}
-
-/* img[alt="menu"] {
-    /*ocultamos el hamburger*/
-    /* display: none; */
+    gap: 60px 40px;
+    padding: 20px;
 
 
-
-
-/*responsive*/
-/* 1200px hasta 769px*/
-@media (max-width: 1023px) {
-
-    .cartas {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 40px;
-        column-gap: 40px;
-        row-gap: 40px;
-    }
-
-    .cartas article {
-        height: 290px;
-
-    }
-
-    .cartas article img {
-        height: 157px;
-        width: 156px;
-    }
-
-
-
-
-    /*desde 1024 (max-width: 1024px) and (min-width: 769px)*/
-    @media (width >=1024px) {
-
-        main {
-            max-width: 769px;
-        }
-
-        .cartas {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
 }

@@ -3,8 +3,6 @@
 // const botonCompra = document.querySelector('.compra');
 
 
-
-<<<<<<<<< Temporary merge branch 1
 // botonAporte.addEventListener('click', () => {});
 // botonDona.addEventListener('click', () => {
 // console.log('funciona el boton')});

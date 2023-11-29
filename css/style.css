@@ -270,13 +270,13 @@ header img[alt="logo"] {
     font-weight: 400;
 }
 
-article {
+#p-1, #p-2 {
     width: 600px;
     text-align: center;
     padding: 60px;
 }
 
-article img {
+#p-1 img {
     width: 300px;
     margin: 20px auto 20px auto;
 }

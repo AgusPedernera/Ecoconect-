@@ -302,10 +302,30 @@ header img[alt="logo"] {
 
 
 
-/*responsive*/
+/*responsive*/ 
 /* 1200px hasta 769px*/
 @media (max-width: 1023px) {
-
+   
+    /*index*/
+    .encabezado h1{
+        font-size: 90px;
+    }
+    
+    #logo image{
+        width: 106px;
+        height: 100px;
+    }
+    .encabezado p{
+        width: 403px;
+        height: 73px;
+        font-size: 22px;
+    }
+    
+    .parte-inferior image{
+        width: 378.58px;
+        height: 230px;
+    }
+    /*dona y compra*/
     .cartas {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -329,6 +349,30 @@ header img[alt="logo"] {
 
     /*desde 1024 (max-width: 1024px) and (min-width: 769px)*/
     @media (width >=1024px) {
+        body{
+            width: 768px;
+            height: 910px;
+            font-size: 6px;
+        }
+        /*index*/
+        .encabezado h1{
+            font-size: 80px;
+        }
+        
+        #logo image{
+            width: 106px;
+            height: 100px;
+        }
+        .encabezado p{
+            width: 403px;
+            height: 73px;
+            font-size: 18px;
+        }
+
+        .parte-inferior image{
+            width: 284px;
+            height: 173px;
+        }
 
         main {
             display: grid;

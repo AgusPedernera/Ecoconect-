@@ -208,14 +208,6 @@ img[alt="compra"] {
     margin: 25px 0px 25px 31px;
 }
 
-.desplegado {
-    transform: translateY(0px);
-}
-
-/* img[alt="menu"] {
-    /*ocultamos el hamburger*/
-    /* display: none; */
-
  /* Formulario */
 
 header {
@@ -246,15 +238,17 @@ header nav {
 header nav a {
     padding: 10px;
 }
+/*menu */
+.desplegado {
+    transform: translateY(0px);
+} 
 
+/*ocultar hamburger*/
 header img[alt="menu"] {
-    /*ocultar hamburger*/
     display: none;
-
 }
 
 header img[alt="logo"] {
-    /*ocultar hamburger*/
     width: 30px;
     height: 30px;
 
@@ -303,7 +297,7 @@ header img[alt="logo"] {
 
 
 /*responsive*/ 
-/* 1200px hasta 769px*/
+/* hasta 1023px*/
 @media (max-width: 1023px) {
    
     /*index*/
@@ -326,6 +320,10 @@ header img[alt="logo"] {
         height: 230px;
     }
     /*dona y compra*/
+    .encabezado1 #descripcion{
+        width: 1023px;
+        
+    }
     .cartas {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -344,14 +342,14 @@ header img[alt="logo"] {
         width: 156px;
     }
 
+}
 
 
-
-    /*desde 1024 (max-width: 1024px) and (min-width: 769px)*/
-    @media (width >=1024px) {
+    /*(max-width: 768px)*/
+    @media (max-width: 768px) {
         body{
             width: 768px;
-            height: 910px;
+            height: 80px;
             font-size: 6px;
         }
         /*index*/
@@ -359,7 +357,7 @@ header img[alt="logo"] {
             font-size: 80px;
         }
         
-        #logo image{
+        #logo{
             width: 106px;
             height: 100px;
         }
@@ -368,21 +366,98 @@ header img[alt="logo"] {
             height: 73px;
             font-size: 18px;
         }
-
-        .parte-inferior image{
-            width: 284px;
-            height: 173px;
+        /*acomodar las imagenes y los botones tambien en 1023*/
+        .parte-inferior div img {
+            height: 250px;
+            margin: 30px 50px;
+        
         }
-
-        main {
-            display: grid;
-            max-width: 769px;
+        
+        img[alt="dona"] {
+            width: 380px;
+            height: 220px;
+            margin: 10px;
+        
         }
-
+        
+        img[alt="compra"] {
+            width: 380px;
+            height: 220px;
+            margin: 10px;
+        
+        
+        }
+        /*dona y comprar*/
+        /*menu desplegrable header*/
+        header {
+            background-color: #62D1BA;
+            width: 768px;
+            display: block;
+            padding: 20px;
+            margin: 0px 20px;
+            font-size: 20px;
+        }
+      
+        header img[alt="menu"] {
+            position: absolute;
+            top: 24px;
+            right: 12px;
+            width: 32px;
+            cursor: pointer;
+            /*mostrar hamburger*/
+            display: inline;
+        }
+    
+        header nav {
+            /*estado inicial cuando carga la pagina(esta escondido)*/
+            transform: translateY(calc(-225px - 80px));
+            transition: 500ms;
+        }
+    
+        .desplegado {
+            transform: translateY(0px);
+        }
+    
+        header nav a {
+            display: block;
+            width: 768px;
+            background-color: #62D1BA;
+            padding: 8px;
+            text-align: center;
+        }
+    
+        header nav a:hover {
+            background-color: #62D1BA;
+        }
+        .encabezado1 #descripcion{
+            width: 768px;
+            font-size: 20px;
+            margin: 30px;
+        }
+        .hamburger{
+            width: 768px;
+            height: 80px;
+            margin: 0px 20px;
+        }
+            .hamburger h2{
+                font-size: 20px;
+            }
+        
         .cartas {
             grid-template-columns: repeat(2, 1fr);
+            margin: 0px 20px;
+            font-size: 5px;
         }
-    }
+        .cartas article img {
+            height: 130px;
+            width: 130px;
+            padding-left: 30px;
+        }
+        /*no se que hace esto */
+        main {
+            display: grid;
+            max-width: 768px;
+        }
 }
 
 

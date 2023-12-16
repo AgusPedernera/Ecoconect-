@@ -363,7 +363,7 @@ header img[alt="logo"] {
 /*responsive*/ 
 /* hasta 1023px*/
 @media (max-width: 1023px) {
-   
+
     /*index*/
     .encabezado h1{
         font-size: 90px;
@@ -378,8 +378,8 @@ header img[alt="logo"] {
         height: 73px;
         font-size: 22px;
     }
-   
-    .parte-inferior image{
+    
+    .parte-inferior img{
         width: 378.58px;
         height: 230px;
     }

@@ -378,7 +378,7 @@ header img[alt="logo"] {
         height: 73px;
         font-size: 22px;
     }
-    
+   
     .parte-inferior image{
         width: 378.58px;
         height: 230px;
@@ -430,10 +430,14 @@ header img[alt="logo"] {
             height: 73px;
             font-size: 18px;
         }
-        /*acomodar las imagenes y los botones tambien en 1023*/
+        
+        .boton-central a{
+            margin: 250px;
+        }
+        /*imagenes */
         .parte-inferior div img {
             height: 250px;
-            margin: 30px 50px;
+            margin: 60px 100px;
         
         }
         
@@ -441,15 +445,12 @@ header img[alt="logo"] {
             width: 380px;
             height: 220px;
             margin: 10px;
-        
         }
         
         img[alt="compra"] {
             width: 380px;
             height: 220px;
             margin: 10px;
-        
-        
         }
         /*dona y comprar*/
         /*menu desplegrable header*/
@@ -457,7 +458,6 @@ header img[alt="logo"] {
             background-color: #62D1BA;
             width: 768px;
             display: block;
-            padding: 20px;
             margin: 0px 20px;
             font-size: 20px;
         }
